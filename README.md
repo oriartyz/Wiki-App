@@ -13,9 +13,6 @@ The user can perform a search and see results that he can click on if he wants t
 1. Handle search input using the form and input.
 2. Use the Wikipedia API to obtain the search results. <br>
 
-Here's the endpoint (URL) because it's one of the first projects and the documentation is not very clear:
-
-https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&origin=*&srlimit=20&srsearch=${searchInput}
 
 -Use the API using the fetch() method, including the search content here: ${searchInput}.
 
